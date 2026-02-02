@@ -1,0 +1,72 @@
+{
+  "basicConstraints": 89,
+  "criticalExtensionOIDs": [
+    "consectetur",
+    "felis"
+  ],
+  "extendedKeyUsage": [
+    "venenatis",
+    "arcu"
+  ],
+  "extensions": [
+    {
+      "criticality": false,
+      "oid": "sit"
+    }
+  ],
+  "issuerAlternativeNames": [
+    {
+      "name": "Abel",
+      "type": 4
+    }
+  ],
+  "issuerDN": {
+    "commonName": "amet",
+    "name": "Aaron"
+  },
+  "issuerUniqueID": [
+    true,
+    false
+  ],
+  "issuerX500Principal": {
+    "name": "Altha"
+  },
+  "keyUsage": [
+    false,
+    true,
+    false
+  ],
+  "name": "Amy",
+  "nonCriticalExtensionOIDs": [
+    "eros",
+    "lectus",
+    "pulvinar"
+  ],
+  "publicKey": {
+    "algorithm": "convallis",
+    "modulus": 21,
+    "params": 44,
+    "publicKey": "lectus"
+  },
+  "serialNumber": 95,
+  "serialNumberObject": {
+    "serialNumber": 53
+  },
+  "sigAlgName": "semper",
+  "sigAlgOID": "adipiscing",
+  "subjectAlternativeNames": [
+    {
+      "name": "Amira",
+      "type": 34
+    }
+  ],
+  "subjectDN": {
+    "commonName": "dui",
+    "name": "Aleen"
+  },
+  "subjectX500Principal": {
+    "name": "Aileen"
+  },
+  "type": "consectetur",
+  "version": 51
+}
