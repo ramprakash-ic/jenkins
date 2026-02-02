@@ -47,6 +47,7 @@
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<environment>${anypoint.env}</environment>
 						<applicationName>${app.name}</applicationName>
+						<businessGroup>2011acea-8b4c-4c47-ab29-770263f36528</businessGroup>
 						<releaseChannel>EDGE</releaseChannel>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
