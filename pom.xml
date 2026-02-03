@@ -21,7 +21,14 @@
 		<anypoint.env>Sandbox</anypoint.env>
 		<business>Inherit Cloud</business>
 	</properties>
-	
+	<distributionManagement>
+		<repository>
+			<id>exchange-repository</id>
+			<name>Exchange Repository</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/1ff162ac-85a4-4f8b-875b-da9756b22b99/maven</url>
+		</repository>
+	</distributionManagement>
+
 
 	<build>
 		<plugins>
