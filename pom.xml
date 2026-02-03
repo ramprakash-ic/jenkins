@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>2011acea-8b4c-4c47-ab29-770263f36528</groupId>
@@ -15,12 +17,15 @@
 
 		<app.runtime>4.10.2</app.runtime>
 		<mule.maven.plugin.version>4.6.1</mule.maven.plugin.version>
+		<app.name>jenkins-api</app.name>
+		<anypoint.env>Sandbox</anypoint.env>
+		<business>Inherit Cloud</business>
 	</properties>
 	<distributionManagement>
 		<repository>
 			<id>exchange-repository</id>
 			<name>Exchange Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/1ff162ac-85a4-4f8b-875b-da9756b22b99/maven</url>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/2011acea-8b4c-4c47-ab29-770263f36528/maven</url>
 		</repository>
 	</distributionManagement>
 
@@ -47,8 +52,7 @@
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<environment>${anypoint.env}</environment>
 						<applicationName>${app.name}</applicationName>
-						<businessGroup>2011acea-8b4c-4c47-ab29-770263f36528</businessGroup>
-						<releaseChannel>EDGE</releaseChannel>
+						<businessGroup>${business}</businessGroup>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 					</cloudhub2Deployment>
