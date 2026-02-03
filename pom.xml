@@ -6,7 +6,7 @@
 
 	<groupId>2011acea-8b4c-4c47-ab29-770263f36528</groupId>
 	<artifactId>jenkins-api</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>mule-application</packaging>
 
 	<name>jenkins-api</name>
