@@ -47,8 +47,8 @@
 						<provider>MC</provider>
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>${app.runtime}</muleVersion>
-						<connectedAppClientId>c85d08a7d09c4c1098693f0afc34cc80</connectedAppClientId>
-						<connectedAppClientSecret>a5fb72bD27c044D09b5560bD5CC4C8b4</connectedAppClientSecret>
+						<connectedAppClientId>${client.id}</connectedAppClientId>
+						<connectedAppClientSecret>${client.secret}</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<environment>${anypoint.env}</environment>
 						<applicationName>${app.name}</applicationName>
